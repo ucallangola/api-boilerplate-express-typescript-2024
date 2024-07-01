@@ -5,57 +5,58 @@
 [![Docker Image CI](https://github.com/edwinhern/express-typescript-2024/actions/workflows/docker-image.yml/badge.svg?branch=master)](https://github.com/edwinhern/express-typescript-2024/actions/workflows/docker-image.yml)
 [![Release](https://github.com/edwinhern/express-typescript-2024/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/edwinhern/express-typescript-2024/actions/workflows/release.yml)
 
-## 🌟 Introduction
+## 🌟 Introdução
 
-Welcome to the Express TypeScript Boilerplate 2024 – a streamlined, efficient, and scalable foundation for building powerful backend services. This boilerplate merges modern tools and practices in Express.js and TypeScript, enhancing productivity, code quality, and performance.
+Bem-vindo ao Express TypeScript Boilerplate 2024 – uma base simplificada, eficiente e escalável para construir serviços backend poderosos. Este boilerplate combina ferramentas e práticas modernas em Express.js e TypeScript, aumentando a produtividade, a qualidade do código e o desempenho.
 
-## 💡 Motivation and Intentions
+## 💡 Motivação e Intenções
 
-Developed to streamline backend development, this boilerplate is your solution for:
+Desenvolvido para simplificar o desenvolvimento de backend, este boilerplate é a sua solução para:
 
-- ✨ Reducing setup time for new projects.
-- 📊 Ensuring code consistency and quality.
-- ⚡ Facilitating rapid development with cutting-edge tools.
-- 🛡️ Encouraging best practices in security, testing, and performance.
+- ✨ Reduzir o tempo de configuração para novos projetos.
+- 📊 Garantir consistência e qualidade do código.
+- ⚡ Facilitar o desenvolvimento rápido com ferramentas de ponta.
+- 🛡️ Incentivar as melhores práticas em segurança, testes e desempenho.
 
-## 🚀 Features
+## 🚀 Funcionalidades
 
-- 📁 Modular Structure: Organized by feature for easy navigation and scalability.
-- 💨 Faster Execution with tsx: Rapid TypeScript execution with esbuild, complemented by tsc for type checking.
-- 🌐 Stable Node Environment: Latest LTS Node version in .nvmrc.
-- 🔧 Simplified Environment Variables with Envalid: Centralized and easy-to-manage configuration.
-- 🔗 Path Aliases: Cleaner code with shortcut imports.
-- 🔄 Dependabot Integration: Automatic updates for secure and up-to-date dependencies.
-- 🔒 Security: Helmet for HTTP header security and CORS setup.
-- 📊 Logging: Efficient logging with pino-http.
-- 🧪 Comprehensive Testing: Robust setup with Vitest and Supertest.
-- 🔑 Code Quality Assurance: Husky and lint-staged for consistent quality.
-- ✅ Unified Code Style: ESLint and Prettier for a consistent coding standard.
-- 📃 API Response Standardization: ServiceResponse class for consistent API responses.
-- 🐳 Docker Support: Ready for containerization and deployment.
-- 📝 Input Validation with Zod: Strongly typed request validation using Zod.
-- 🧩 API Spec Generation: Automated OpenAPI specification generation from Zod schemas to ensure up-to-date and accurate API documentation.
+- 📁 Estrutura Modular: Organizada por funcionalidades para fácil navegação e escalabilidade.
+- 💨 Execução mais Rápida com tsx: Execução rápida do TypeScript com esbuild, complementada pelo tsc para verificação de tipos.
+- 🌐 Ambiente Node Estável: Última versão LTS do Node em .nvmrc.
+- 🔧 Variáveis de Ambiente Simplificadas com Envalid: Configuração centralizada e fácil de gerenciar.
+- 🔗 Alias de Caminho: Código mais limpo com importações simplificadas.
+- 🔄 Integração com Dependabot: Atualizações automáticas para dependências seguras e atualizadas.
+- 🔒 Segurança: Helmet para segurança de cabeçalhos HTTP e configuração de CORS.
+- 📊 Logging: Registro eficiente com pino-http.
+- 🧪 Testes Abrangentes: Configuração robusta com Vitest e Supertest.
+- 🔑 Garantia de Qualidade do Código: Husky e lint-staged para qualidade consistente.
+- ✅ Estilo de Código Unificado: ESLint e Prettier para um padrão de codificação consistente.
+- 📃 Padronização de Respostas da API: Classe ServiceResponse para respostas de API consistentes.
+- 🐳 Suporte ao Docker: Pronto para conteinerização e implantação.
+- 📝 Validação de Entrada com Zod: Validação fortemente tipada de solicitações usando Zod.
+- 🧩 Geração de Especificações de API: Geração automática de especificações OpenAPI a partir de esquemas Zod para garantir documentação de API atualizada e precisa.
 
-## 🛠️ Getting Started
+## 🛠️ Começando
 
-### Step 1: 🚀 Initial Setup
+### Passo 1: 🚀 Configuração Inicial
 
-- Clone the repository: `git clone https://github.com/edwinhern/express-typescript-2024.git`
-- Navigate: `cd express-typescript-2024`
-- Install dependencies: `npm ci`
+- Clone o repositório: `git clone https://github.com/edwinhern/express-typescript-2024.git`
+- Navegue: `cd express-typescript-2024`
+- Instale as dependências: `npm ci`
 
-### Step 2: ⚙️ Environment Configuration
+### Passo 2: ⚙️ Configuração do Ambiente
 
-- Create `.env`: Copy `.env.template` to `.env`
-- Update `.env`: Fill in necessary environment variables
+- Crie `.env`: Copie `.env.template` para `.env`
+- Atualize `.env`: Preencha as variáveis de ambiente necessárias
 
-### Step 3: 🏃‍♂️ Running the Project
+### Passo 3: 🏃‍♂️ Executando o Projeto
 
-- Development Mode: `npm run dev`
-- Building: `npm run build`
-- Production Mode: Set `.env` to `NODE_ENV="production"` then `npm run build && npm run start`
+- Modo de Desenvolvimento: `npm run dev`
+- Construindo: `npm run build`
+- Modo de Produção: Configure `.env` para `NODE_ENV="production"` e então `npm run build && npm run start`
 
-## 📁 Project Structure
+## 📁 Estrutura do Projeto
+
 
 ```
 .
@@ -97,8 +98,8 @@ Developed to streamline backend development, this boilerplate is your solution f
 
 ```
 
-## 🤝 Feedback and Contributions
+## 🤝 Feedback e Contribuições
 
-We'd love to hear your feedback and suggestions for further improvements. Feel free to contribute and join us in making backend development cleaner and faster!
+Adoraria ouvir seu feedback e sugestões para melhorias futuras. Sinta-se à vontade para contribuir e se juntar a nós para tornar o desenvolvimento backend mais limpo e rápido!
 
-🎉 Happy coding!
+🎉 Feliz codificação!
